@@ -1,0 +1,5 @@
+IR Remote TV
+Copyright (c) 2026 Diego Lacarbonara. App code under the MIT License (see LICENSE).
+
+app/src/main/assets/tvdb.json is derived from Flipper-IRDB
+(https://github.com/Lucaslhm/Flipper-IRDB), released under CC0 1.0 Universal.
