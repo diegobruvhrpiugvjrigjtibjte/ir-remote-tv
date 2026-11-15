@@ -16,7 +16,7 @@
 
 ## What it does
 
-- **107 brands, 348 remotes** from the public Flipper-IRDB database: Samsung, LG, Sony, Hisense, TCL, Philips, Panasonic, Sharp, Toshiba, Vizio, Roku, Thomson, Grundig, JVC, Haier and many more ([full list](docs/en/03-supported-brands.md))
+- **107 brands, 348 remotes** from the public Flipper-IRDB database: Samsung, LG, Sony, Hisense, TCL, Philips, Panasonic, Sharp, Toshiba, Vizio, Grundig, JVC, Haier, Blaupunkt, Telefunken, RCA and many more ([full list](docs/en/03-supported-brands.md))
 - **Every key**: power, volume, channels, input, arrows, OK, menu, home, back, exit, info, guide, settings, numbers, colour keys, playback, subtitles, sleep, teletext
 - **App shortcuts**: YouTube, Netflix, Prime Video, Disney+, Spotify, when the original remote has them
 - **Touchpad**: drag to move through smart-TV menus, tap for OK

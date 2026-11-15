@@ -15,7 +15,7 @@
 
 ## Cosa fa
 
-- **107 marche, 348 telecomandi** dal database pubblico Flipper-IRDB: Samsung, LG, Sony, Hisense, TCL, Philips, Panasonic, Sharp, Toshiba, Vizio, Roku, Thomson, Grundig, JVC, Haier e molte altre ([elenco completo](docs/it/03-marche-supportate.md))
+- **107 marche, 348 telecomandi** dal database pubblico Flipper-IRDB: Samsung, LG, Sony, Hisense, TCL, Philips, Panasonic, Sharp, Toshiba, Vizio, Grundig, JVC, Haier, Blaupunkt, Telefunken, RCA e molte altre ([elenco completo](docs/it/03-marche-supportate.md))
 - **Tutti i tasti**: accensione, volume, canali, sorgente, frecce, OK, menu, home, indietro, esci, info, guida, impostazioni, numeri, tasti colorati, riproduzione, sottotitoli, sleep, televideo
 - **Scorciatoie per le app**: YouTube, Netflix, Prime Video, Disney+, Spotify, se il telecomando originale le ha
 - **Touchpad**: trascina per muoverti nei menu delle smart TV, tocca per OK
