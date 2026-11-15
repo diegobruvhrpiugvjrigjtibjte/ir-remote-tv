@@ -35,6 +35,11 @@ No. Invia solo infrarossi, come il telecomando originale.
 **Posso usarlo sul Galaxy S20+?**
 No. L'S20+ non ha il trasmettitore IR.
 
+**I comandi vocali non partono**
+Usano il servizio vocale del telefono. Installa o aggiorna l'app Google; per
+usarli offline scarica il pacchetto della lingua italiana nelle impostazioni
+vocali di Google.
+
 ## Licenza e crediti
 
 Codice dell'app: MIT. Database dei telecomandi: derivato da

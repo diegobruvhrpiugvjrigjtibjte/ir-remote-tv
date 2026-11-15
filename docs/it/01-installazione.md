@@ -20,7 +20,7 @@ trasmettitore lo scrive in alto e disattiva i tasti.
 
 ## Installare l'APK
 
-1. Scarica `IR-Remote-TV-2.0.apk` dall'[ultima release](https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv/releases/latest)
+1. Scarica `IR-Remote-TV-2.1.apk` dall'[ultima release](https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv/releases/latest)
    o dal [sito](https://ir-remote-tv.pages.dev).
 2. Apri il file sul telefono.
 3. Android chiede di consentire le app da origini sconosciute:
@@ -37,7 +37,7 @@ l'APK nella cartella `Download` della memoria interna, poi sul telefono apri
 ### Con adb
 
 ```bash
-adb install -r IR-Remote-TV-2.0.apk
+adb install -r IR-Remote-TV-2.1.apk
 ```
 
 ## Aggiornare
@@ -47,7 +47,7 @@ modello scelti restano salvati.
 
 ## Dimensione e permessi
 
-Circa 94 KB. Permessi: `TRANSMIT_IR` (inviare infrarossi) e `VIBRATE` (una
+Circa 105 KB. Permessi: `TRANSMIT_IR` (inviare infrarossi) e `VIBRATE` (una
 breve vibrazione a ogni tasto). Nessun permesso internet: l'app funziona
 completamente offline e non raccoglie niente.
 

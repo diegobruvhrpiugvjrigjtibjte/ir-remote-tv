@@ -2,7 +2,7 @@
 
 # IR Remote TV
 
-**A tiny Android infrared remote for almost every TV: 107 brands, 348 remotes, app shortcuts, a touchpad for smart-TV menus and an automatic model finder. 94 KB, offline, no ads.**
+**A tiny Android infrared remote for almost every TV, with voice commands: 107 brands, 348 remotes, app shortcuts, a touchpad for smart-TV menus and an automatic model finder. about 100 KB, offline, no ads.**
 
 [![Release](https://img.shields.io/github/v/release/diegobruvhrpiugvjrigjtibjte/ir-remote-tv)](https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -19,7 +19,9 @@
 - **107 brands, 348 remotes** from the public Flipper-IRDB database: Samsung, LG, Sony, Hisense, TCL, Philips, Panasonic, Sharp, Toshiba, Vizio, Grundig, JVC, Haier, Blaupunkt, Telefunken, RCA and many more ([full list](docs/en/03-supported-brands.md))
 - **Every key**: power, volume, channels, input, arrows, OK, menu, home, back, exit, info, guide, settings, numbers, colour keys, playback, subtitles, sleep, teletext
 - **App shortcuts**: YouTube, Netflix, Prime Video, Disney+, Spotify, when the original remote has them
-- **Touchpad**: drag to move through smart-TV menus, tap for OK
+- **Looks like a real remote**: one screen, no scrolling, drawn keys with Netflix, YouTube, Prime Video and Disney+ styles
+- **Voice commands**: tap the mic and say "alza il volume", "canale 5", "Netflix" (uses the phone's speech service, offline when available)
+- **Touchpad**: drag on the D-pad to move through smart-TV menus, tap for OK
 - **Model finder**: tries the power code of every model of a brand, or of every brand, until the TV reacts
 - **Hold to repeat** for volume, channels and arrows; vibration on every key
 - **Signals generated on the phone**: NEC, NECext, NEC42, Samsung32, Sony SIRC, Philips RC5/RC6 and raw codes
@@ -30,7 +32,7 @@ A phone with an **infrared transmitter**, such as the Samsung Galaxy S4/S5/Note 
 
 ## Install
 
-Download `IR-Remote-TV-2.0.apk` from the [latest release](https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv/releases/latest), open it on the phone, allow unknown sources and install. Step by step: [Install](docs/en/01-install.md).
+Download `IR-Remote-TV-2.1.apk` from the [latest release](https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv/releases/latest), open it on the phone, allow unknown sources and install. Step by step: [Install](docs/en/01-install.md).
 
 ## Use
 
@@ -38,7 +40,7 @@ Download `IR-Remote-TV-2.0.apk` from the [latest release](https://github.com/die
 2. Point the **top edge** of the phone at the TV and press **Accendi / Spegni** (power).
 3. Nothing happens? Tap **Trova il modello giusto di ...** and tap **Stop** when the TV reacts.
 
-The interface is in Italian; the [user guide](docs/en/02-user-guide.md) translates every label.
+Keys are labelled like a TV remote; menus are in Italian. See the [user guide](docs/en/02-user-guide.md).
 
 ## Documentation
 
@@ -61,7 +63,7 @@ Details and database regeneration: [Build from source](docs/en/05-build-from-sou
 
 ## Status
 
-10 unit tests pass, including one that encodes every button of every remote in the database. Real-world testing is ongoing on a Galaxy S4 with a Hisense TV: if a brand does not respond, please open an issue with brand and TV model.
+16 unit tests pass, including one that encodes every button of every remote in the database and six for the voice commands. Real-world testing is ongoing on a Galaxy S4 with a Hisense TV: if a brand does not respond, please open an issue with brand and TV model.
 
 ## License
 

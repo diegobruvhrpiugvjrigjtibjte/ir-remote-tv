@@ -15,7 +15,7 @@ git clone https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv.git
 cd ir-remote-tv
 echo "sdk.dir=/percorso/di/Android/Sdk" > local.properties
 
-./gradlew :app:testDebugUnitTest      # 10 test unitari
+./gradlew :app:testDebugUnitTest      # 16 test unitari
 ./gradlew :app:assembleRelease        # app/build/outputs/apk/release/app-release.apk
 ```
 
@@ -34,7 +34,10 @@ installa subito. Per pubblicarla su uno store configura la tua chiave in
 
 ```
 app/src/main/java/app/telecomandoir/
-  MainActivity.java   l'unica schermata, costruita in codice
+  MainActivity.java   l'unica schermata del telecomando, costruita in codice
+  RemoteViews.java    viste personalizzate: tasto, croce/touchpad, bilanciere
+  Icons.java          icone vettoriali disegnate su griglia 24x24
+  VoiceCommands.java  frase in italiano → sequenza di tasti
   TvDb.java           modello del database: Key, Btn, Remote, Brand, ricerca
   IrCodec.java        codificatori NEC, NECext, NEC42, Samsung32, SIRC, RC5, RC6
 app/src/main/assets/tvdb.json   il database dei telecomandi
@@ -57,7 +60,7 @@ la lunghezza RC5, la guida RC6, che **ogni** tasto di **ogni** telecomando del
 database diventi un pattern valido con una portante plausibile, che il codice
 Hisense `0xBF00 / 0xF20D` ci sia, che la ricerca abbia più di 80 codici di
 accensione diversi e che i tasti YouTube e Netflix siano presenti su molti
-telecomandi.
+telecomandi. `VoiceCommandsTest` controlla le frasi per accensione, volume, numeri dei canali, app, navigazione e riproduzione.
 
 ## Rigenerare il database
 

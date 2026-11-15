@@ -7,8 +7,8 @@ android {
         applicationId = "app.telecomandoir"
         minSdk = 19          // ConsumerIrManager esiste dalla 4.4
         targetSdk = 21       // Android 5.0.1: ultima versione ufficiale del Galaxy S4
-        versionCode = 3
-        versionName = "2.0"
+        versionCode = 4
+        versionName = "2.1"
     }
     buildTypes { release { isMinifyEnabled = true; isShrinkResources = true; signingConfig = signingConfigs.getByName("debug") } }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_1_8; targetCompatibility = JavaVersion.VERSION_1_8 }

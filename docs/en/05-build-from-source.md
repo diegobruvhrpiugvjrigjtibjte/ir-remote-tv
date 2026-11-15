@@ -15,7 +15,7 @@ git clone https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv.git
 cd ir-remote-tv
 echo "sdk.dir=/path/to/Android/Sdk" > local.properties
 
-./gradlew :app:testDebugUnitTest      # 10 unit tests
+./gradlew :app:testDebugUnitTest      # 16 unit tests
 ./gradlew :app:assembleRelease        # app/build/outputs/apk/release/app-release.apk
 ```
 
@@ -34,7 +34,10 @@ directly. For distribution on a store, configure your own signing key in
 
 ```
 app/src/main/java/app/telecomandoir/
-  MainActivity.java   the single screen, built in code
+  MainActivity.java   the single remote screen, built in code
+  RemoteViews.java    custom key, D-pad/touchpad and rocker views
+  Icons.java          vector icons drawn on a 24x24 grid
+  VoiceCommands.java  Italian phrase → key sequence
   TvDb.java           database model: Key, Btn, Remote, Brand, power sweep
   IrCodec.java        NEC, NECext, NEC42, Samsung32, SIRC, RC5, RC6 encoders
 app/src/main/assets/tvdb.json   the remote database
@@ -56,7 +59,7 @@ bits, Samsung32 address repetition, Sony's three frames, RC5 length, RC6
 leader, that **every** button of **every** remote in the database encodes to a
 valid pattern with a plausible carrier, that the Hisense `0xBF00 / 0xF20D`
 power code is present, that the sweep has more than 80 distinct power codes and
-that YouTube and Netflix keys exist on many remotes.
+that YouTube and Netflix keys exist on many remotes. `VoiceCommandsTest` checks power, volume, channel numbers, apps, navigation and playback phrases.
 
 ## Regenerate the database
 

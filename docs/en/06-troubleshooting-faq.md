@@ -35,9 +35,9 @@ No. It sends infrared only, like the original remote.
 **Can I use it on the Galaxy S20+?**
 No. The S20+ has no IR transmitter.
 
-**Why are the labels in Italian?**
-The app was made for an Italian user. Translations are welcome: the strings are
-in `MainActivity.java`.
+**Voice commands do not start**
+They use the phone's speech service. Install or update the Google app; for
+offline use download the Italian language pack in the Google voice settings.
 
 ## Licence and credits
 

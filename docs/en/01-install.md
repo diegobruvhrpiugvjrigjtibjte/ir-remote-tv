@@ -20,7 +20,7 @@ says so at the top and greys out the keys.
 
 ## Install the APK
 
-1. Download `IR-Remote-TV-2.0.apk` from the
+1. Download `IR-Remote-TV-2.1.apk` from the
    [latest release](https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv/releases/latest)
    or from the [website](https://ir-remote-tv.pages.dev).
 2. Open the file on the phone.
@@ -38,7 +38,7 @@ Connect the phone with USB in **file transfer (MTP)** mode, copy the APK to the
 ### With adb
 
 ```bash
-adb install -r IR-Remote-TV-2.0.apk
+adb install -r IR-Remote-TV-2.1.apk
 ```
 
 ## Updating
@@ -48,7 +48,7 @@ brand and model are kept.
 
 ## Size and permissions
 
-About 94 KB. Permissions: `TRANSMIT_IR` (send infrared) and `VIBRATE` (a short
+About 105 KB. Permissions: `TRANSMIT_IR` (send infrared) and `VIBRATE` (a short
 tick on every key). No internet permission: the app works completely offline
 and collects nothing.
 

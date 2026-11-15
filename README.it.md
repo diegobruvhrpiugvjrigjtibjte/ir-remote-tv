@@ -2,7 +2,7 @@
 
 # IR Remote TV · Telecomando IR
 
-**Un telecomando a infrarossi per Android piccolissimo, per quasi tutte le TV: 107 marche, 348 telecomandi, scorciatoie per le app, un touchpad per i menu delle smart TV e la ricerca automatica del modello. 94 KB, offline, senza pubblicità.**
+**Un telecomando a infrarossi per Android piccolissimo, per quasi tutte le TV, con comandi vocali: 107 marche, 348 telecomandi, scorciatoie per le app, un touchpad per i menu delle smart TV e la ricerca automatica del modello. circa 100 KB, offline, senza pubblicità.**
 
 [![Release](https://img.shields.io/github/v/release/diegobruvhrpiugvjrigjtibjte/ir-remote-tv)](https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -18,7 +18,9 @@
 - **107 marche, 348 telecomandi** dal database pubblico Flipper-IRDB: Samsung, LG, Sony, Hisense, TCL, Philips, Panasonic, Sharp, Toshiba, Vizio, Grundig, JVC, Haier, Blaupunkt, Telefunken, RCA e molte altre ([elenco completo](docs/it/03-marche-supportate.md))
 - **Tutti i tasti**: accensione, volume, canali, sorgente, frecce, OK, menu, home, indietro, esci, info, guida, impostazioni, numeri, tasti colorati, riproduzione, sottotitoli, sleep, televideo
 - **Scorciatoie per le app**: YouTube, Netflix, Prime Video, Disney+, Spotify, se il telecomando originale le ha
-- **Touchpad**: trascina per muoverti nei menu delle smart TV, tocca per OK
+- **Sembra un telecomando vero**: una schermata, niente scorrimento, tasti disegnati con gli stili di Netflix, YouTube, Prime Video e Disney+
+- **Comandi vocali**: tocca il microfono e di' "alza il volume", "canale 5", "Netflix" (usa il servizio vocale del telefono, offline se disponibile)
+- **Touchpad**: trascina sulla croce per muoverti nei menu delle smart TV, tocca per OK
 - **Ricerca del modello**: prova il codice di accensione di ogni modello di una marca, o di tutte le marche, finché la TV reagisce
 - **Tieni premuto per ripetere** volume, canali e frecce; vibrazione a ogni tasto
 - **Segnali generati sul telefono**: NEC, NECext, NEC42, Samsung32, Sony SIRC, Philips RC5/RC6 e codici grezzi
@@ -29,7 +31,7 @@ Un telefono con **trasmettitore a infrarossi**, come Samsung Galaxy S4/S5/Note 3
 
 ## Installazione
 
-Scarica `IR-Remote-TV-2.0.apk` dall'[ultima release](https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv/releases/latest), aprilo sul telefono, consenti le origini sconosciute e installa. Passo per passo: [Installazione](docs/it/01-installazione.md).
+Scarica `IR-Remote-TV-2.1.apk` dall'[ultima release](https://github.com/diegobruvhrpiugvjrigjtibjte/ir-remote-tv/releases/latest), aprilo sul telefono, consenti le origini sconosciute e installa. Passo per passo: [Installazione](docs/it/01-installazione.md).
 
 ## Uso
 
@@ -50,7 +52,7 @@ Scarica `IR-Remote-TV-2.0.apk` dall'[ultima release](https://github.com/diegobru
 
 ## Stato
 
-10 test unitari superati, compreso uno che genera ogni tasto di ogni telecomando del database. La prova reale è in corso su un Galaxy S4 con una TV Hisense: se una marca non risponde, apri una issue con marca e modello della TV.
+16 test unitari superati, compreso uno che genera ogni tasto di ogni telecomando del database e sei per i comandi vocali. La prova reale è in corso su un Galaxy S4 con una TV Hisense: se una marca non risponde, apri una issue con marca e modello della TV.
 
 ## Licenza
 
